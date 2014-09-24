@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+.container {
+  background: red;
+  height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.head {
+  height: 10em;
+  background: lightgreen;
+}
+.main {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.foot {
+  height: 5em;
+  background: lightgreen;
+}
+.main {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.side {
+  background: green;
+  width: 30%;
+  resize: both;
+  overflow: auto;
+}
+.body {
+  background: white;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: scroll;
+}
+.no-flexbox .side {
+  float: left;
+  max-width: auto;
+  min-width: auto;
+}
+.no-flexbox .body {
+  float: left;
+  width: 70%;
+}
+/*# sourceMappingURL=style.css.map */
